@@ -83,7 +83,7 @@
                         <button @click="toggleShowDeleteModal(item.id)">Delete</button>
                     </div>
                 </div>
-                <div class="nodes--element_childs" v-if="item.childrens">
+                <div class="nodes--element_childs" v-if="item.childrens && isExpanded">
                     <nodes-list :nodes="item.childrens" class="ml-10" @refreshData="refreshData"/>
                 </div>
             </div>
