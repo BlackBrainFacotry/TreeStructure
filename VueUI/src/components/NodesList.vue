@@ -95,7 +95,7 @@
 
 <style lang="scss" scoped>
     .nodes--element {
-        width: 100%;
+        width: 500px;
         display: flex;
         flex-direction: column;
         &__name {
