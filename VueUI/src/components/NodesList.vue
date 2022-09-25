@@ -114,7 +114,7 @@
         }
 
         &_childs {
-            padding-bottom: 12px;
+            padding-bottom: 2px;
             margin-bottom: 4px;
         }
         
